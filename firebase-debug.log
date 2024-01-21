@@ -1,0 +1,27 @@
+[debug] [2023-11-30T05:02:08.321Z] ----------------------------------------------------------------------
+[debug] [2023-11-30T05:02:08.325Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2023-11-30T05:02:08.326Z] CLI Version:   12.9.1
+[debug] [2023-11-30T05:02:08.326Z] Platform:      win32
+[debug] [2023-11-30T05:02:08.326Z] Node Version:  v20.10.0
+[debug] [2023-11-30T05:02:08.326Z] Time:          Thu Nov 30 2023 10:47:08 GMT+0545 (Nepal Time)
+[debug] [2023-11-30T05:02:08.326Z] ----------------------------------------------------------------------
+[debug] 
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=1070288194&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-11-30T05:02:14.204Z] Unable to open URL: Error: spawn UNKNOWN
+    at ChildProcess.spawn (node:internal/child_process:421:11)
+    at Object.spawn (node:child_process:761:9)
+    at module.exports (C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\open\index.js:114:34)
+    at open (C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:139:5)
+    at Server.<anonymous> (C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:371:13)
+    at Object.onceWrapper (node:events:628:28)
+    at Server.emit (node:events:526:35)
+    at Server.emit (node:domain:488:12)
+    at emitListeningNT (node:net:1906:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
